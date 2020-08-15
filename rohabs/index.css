@@ -1,6 +1,5 @@
-
-
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,123 +7,117 @@
 header
 {
     background-image: url(/darkgreenleaves.jpg);
-    background-repeat: repeat;
 }
-
 .container{
-   
     height: 100vh;
     width: 100%;
     display: flex;
+    align-items:flex-start;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
     background-size: cover;
 }
-
-h1{
-    font-size: 3rem;
-    color:white;
-    margin-left:1rem;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2vw;
-}
-
-img{
-    height: 15rem;
-    border:none;
-    background: none;
-    margin-right: 10px;
-}
-
-img:hover{
-    transform: scale(1.2);
-}
-
-nav ul{
-    list-style: none;
-}
-
-nav button{
-    border-radius: 2rem;
-    border: 2px solid white;
-    padding: 1rem 2rem ;
-    background: transparent;
-    color: white;
-    font-size :1rem ;
-    outline: none;
-    cursor: pointer;
-    margin: 1rem;
-}
-
-nav button:hover{
-    transform: scale(1.2);
-    color: teal;
-    border-color: teal;
-    transition: .1s ease-in-out 0s;
-
-}
-
-nav{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex:1 1 60rem;
-}
-
-.first{
-    /* background-color: thistle; */
-    flex: 20 1 35rem;
-}
-.second{
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
-    flex: 1 1 35rem;
-    display: flex;
-    justify-content: center;
-    color: rgb(35, 117, 60);
-}
-
-.login-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.login-card h1{
-    color: rgb(35, 117, 60);
-    padding: 2rem;
-}
-
-.login{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-}
-
-.text{
-    margin:2rem
-}
-
-button{
-    color: white;
-    background-color:rgb(97, 139, 194);
-    padding: 1.5rem 3.5rem;
-    border: none;
-    outline: none;
-    border-radius: 5rem;
-    margin: 2rem;
     
-}
-
-.input{
-    margin: 1rem;
-}
+   
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2vw;
+    }
+    
+   nav img{
+        height: 40rem;
+        border:none;
+        background: none;
+        margin-right: 10px;
+    }
+    
+    img:hover{
+        transform: scale(1.2);
+    }
+    
+    nav ul{
+        list-style: none;
+    }
+    
+    nav button{
+        border-radius: 2rem;
+        border: 2px solid white;
+        padding: 1rem 2rem ;
+        background: transparent;
+        color: white;
+        font-size :1rem ;
+        outline: none;
+        cursor: pointer;
+        margin: 5rem;
+    }
+    
+    nav button:hover{
+        transform: scale(1.2);
+        color: teal;
+        border-color: teal;
+        transition: .1s ease-in-out 0s;
+    
+    }
+    
+    nav{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex:1 1 60rem;
+    }
+    
+    .first{
+        /* background-color: thistle; */
+        flex: 20 1 35rem;
+    }
+    .second{
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        flex: 1 1 35rem;
+        display: flex;
+        justify-content: center;
+        color: rgb(35, 117, 60);
+    }
+    
+    .login-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .login-card h1{
+        color: rgb(35, 117, 60);
+        padding: 2rem;
+    }
+    
+    .login{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
+    .text{
+        margin:2rem
+    }
+    
+    button{
+        color: white;
+        background-color:rgb(97, 139, 194);
+        padding: 1.5rem 3.5rem;
+        border: none;
+        outline: none;
+        border-radius: 5rem;
+        margin: 2rem;
+        
+    }
+    
+    .input{
+        margin: 0.5rem;
+    }
