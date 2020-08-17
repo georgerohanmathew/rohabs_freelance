@@ -86,6 +86,12 @@ background-color: white;
         flex-wrap: wrap;
      
     }
+
+    .usericon,.passwordicon
+    {
+        height: 1.5rem;
+    }
+
     
     .first{
         /* background-color: thistle; */
@@ -99,6 +105,7 @@ background-color: white;
         display: flex;
         flex:wrap;
     }
+
     .input1
     {
      width:25vh;
@@ -108,10 +115,8 @@ background-color: white;
      border:none;
      border-bottom: 1px solid black;
      outline: none;
-
-
-
     }
+
     .login-card{
         margin-top: 15rem;
         display: flex;
@@ -139,6 +144,7 @@ background-color: white;
     .text{
         margin:2rem
     }
+    
     .login .text
     {
         font-size: 1.5rem;
@@ -168,9 +174,5 @@ background-color: white;
         margin: 0.5rem;
     }
 
-    .usericon,.passwordicon
-    {
-        height: 1.5rem;
-    }
-
+   
  
