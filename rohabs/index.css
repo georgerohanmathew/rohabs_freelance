@@ -1,30 +1,341 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');/*font-family: 'Bebas Neue', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');/*font-family: 'Ubuntu', sans-serif;*/
+
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    background-size: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
 .first
 {
-background-image: url("darkgreenleaves.jpg");
-
+  
+    background-size: 100%;
+    font-family: 'Bebas Neue', cursive;
+    height: 100vh;
+    width:100vw;
+    background-image: url('mainwall1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+   background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(mainwall1.jpg);
 }
-.second
+nav{
+    height:100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img{
+    height:40rem;
+    flex-direction: row;
+}
+
+.loginmessageus{
+    border: none;
+	outline: none;
+    height: 4rem;
+    width: 10rem;
+    padding: 1rem;
+	font-size: 18px;
+	background: #F1992A;
+	color: white;
+	border-radius: 20px;
+}
+.loginmessageus:hover{
+    cursor: pointer;
+	background: white;
+	color: black;
+}
+
+
+.loginabout{
+    border: none;
+	outline: none;
+	height: 40px;
+    font-size: 18px;
+    height: 4rem;
+    width: 10rem;
+    padding: 1rem;
+	background: #F1992A;
+	color: white;
+	border-radius: 20px;
+}
+.loginabout:hover{
+    cursor: pointer;
+	background: white;
+	color: black;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem;
+}
+
+@media screen and (max-width:768px)
 {
-background-color: white;
+    nav{
+        flex-direction: column;
+    }
+
+    nav img{
+        height:30rem;
+       
+    }
+
+    nav ul{
+        flex-direction:column;
+    }
+
+    
+.loginmessageus{
+    margin: 2rem;
+}
+
+.loginabout{
+    margin: 2rem;
+}
+}
+
+@media screen and (max-width:320px)
+{
+    nav{
+        flex-direction: column;
+    }
+
+    nav img{
+        height:25rem;
+       
+    }
+
+    nav ul{
+        flex-direction:column;
+    }
+
+    
+.loginmessageus{
+    margin: 2rem;
+}
+
+.loginabout{
+    margin: 2rem;
+}
+}
+ }
+
+/* .second
+{
+background-color: #fafafa;
+height: 50vh;
+width: 100vw;
+display: inline-flex;
+} */
+
+/* nav ul{
+    list-style: none;
+    display: flex;
+    width:50vw;
+}
+
+nav ul li{
+    height: 2rem;
+    padding: 10rem;
+}
+
+nav img{
+    height:50rem;
+    border:none;
+    background: none;
+}
+
+.nav
+{
+  width: 100vw;
+  height:auto;
+  display: flex;
+  align-items: center;
+  padding-left: 40rem;
+  
+}
+nav button{
+   border-radius:20%; 
+   height:2rem;
+   border: 2px solid white;
+   padding: 8rem 10rem ;
+   background: transparent;
+   color: white;
+   font-size :1rem ;
+   outline: none;
+   cursor: pointer;
+}
+nav button:hover{
+    transform: scale(1.2);
+    color: rgb(23, 110, 6);
+    border-color:white;
+    transition: .1s ease-in-out 0s;
+    
+    background-color:whitesmoke ;
+
+} */
+/*
+ .usericon,.passwordicon
+    {
+        height: 10rem;
+    }
+
+
+ .login_name
+ {
+    width:50vw;
+    display: flex;
+    justify-content: center;
+ }   
+
+ .login_name img
+ {
+    height: 100rem;
+    border:none;
+    background: none;
+ }
+
+
+ .loginpage
+ {
+    width:50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20rem;
+
+ }   
+ .loginpagesub
+ {
+     background-color:#3897f0;
+     width: 30vw;
+     height: 60vh;
+     display: flex;
+     flex-direction: column;
+ }
+ .loginpage div div
+ {
+    height: 35rem;
+     width: 30vw;
+     padding:14rem;
+     display: flex;
+     justify-content: center;
+ }
+
+ .input1
+ {
+height: 4vh;
+  width:25vh;
+  padding: 0.7rem 0rem;
+  font-size: 4rem;
+  color: black;
+  border: 0.5px;
+  border-radius: 5%;
+  border-bottom: 0.5px solid black;
+  outline: none;
+ }*/
+
+ /* button{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    border-radius: 10%;
+    color:#3897f0;
+    border: none;
+    outline: none;
+    padding: 20px 90px; */
+   /* 
+    
+    
+    background-color:white;
+    padding: 4rem 4rem;
+    
+    */
+ 
+/* 
+}
+
+button:hover
+{
+    background-color: black;
+    transition: .3s ease-in-out 0s;
+} */
+/* 
+@media screen and (max-width:768px)
+{
+    .first
+    {
+        width: 100%;
+    }
+    .second
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width:320px)
+{
+    .logo
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .nav
+    {
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+    .login_name
+    {
+        text-align: center;
+        width: 100%;
+    }
+    .loginpage
+    {
+        text-align: center;
+        width: 100%;
+    }
+ } */
+/*
+nav{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+ 
 }
 .container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
+  
+   
+    
+    
+    
     text-align: center;
-    flex-wrap: wrap;
-    background-size: cover;
+
 }
+
+
     
    
     
@@ -34,67 +345,24 @@ background-color: white;
         font-size: 0px;
     }
     
-   nav img{
-        height: 25rem;
-        border:none;
-        background: none;
-    }
+ 
     
-    nav img:hover{
-        transform: scale(1.2);
-    }
     
-    nav ul{
-        list-style: none;
-        display: flex;
-        padding: 1rem;
+    
 
-       
-    }
-    nav li{
-    
-        padding: 2rem;
-    }
+  
 
-    nav button{
-         border-radius:20%; 
-        border: 2px solid white;
-        padding: 1rem 2rem ;
-        background: transparent;
-        color: white;
-        font-size :1.3rem ;
-        outline: none;
-        cursor: pointer;
-        
-    }
-    
-    nav button:hover{
-        transform: scale(1.2);
-        color: white;
-        border-color:white;
-        transition: .1s ease-in-out 0s;
-      
-        background-color:-moz-linear-gradient(45deg,  #35394a 0%, #1f222e 100%); ;
-    
-    }
-    
-    nav{
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content:flex-start;
-        flex-wrap: wrap;
-     
-    }
 
-    .usericon,.passwordicon
-    {
-        height: 1.5rem;
-    }
+    
+  
+    
+
+
+   
 
     
     .first{
-        /* background-color: thistle; */
+       
         flex: 1 0 auto;
      
         font-family: 'Bebas Neue', cursive;
@@ -106,16 +374,7 @@ background-color: white;
         flex:wrap;
     }
 
-    .input1
-    {
-     width:25vh;
-     padding: 0.7rem 0rem;
-     font-size: 1rem;
-     color: black;
-     border:none;
-     border-bottom: 1px solid black;
-     outline: none;
-    }
+ 
 
     .login-card{
         margin-top: 15rem;
@@ -150,28 +409,11 @@ background-color: white;
         font-size: 1.5rem;
     }
     
-    button{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 1rem;
-        border-radius: 10%;
-        color: white;
-        background-color:rgb(35, 117, 60);
-        padding: 1rem 3rem;
-        border: none;
-        margin: 3rem;
-        outline: none;
-        /* border-radius: 5rem; */
    
-    }
-
-    button:hover
-    {
-        background-color: black;
-        transition: .3s ease-in-out 0s;
-    }
     
     .input{
         margin: 0.5rem;
     }
-
-   
+/
+ 
+    */

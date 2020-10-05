@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Log in</title>
+<link rel="stylesheet" href="login.css" type="text/css">
+<script type="text/javascript">
+	function validate()
+	{
+		var u = document.loginform.username.value;
+		var p = document.loginform.password.value;
+		if( u == "roh" && p== "roh123" )
+			{
+				return true;
+			}
+		else
+			{
+				alert("Invalid Username and password");				
+				return false;
+				
+			}
+	}
+	</script>
+</head>
+
+<body>
+<div class="loginbox">
+	<img class="logo" src="rohabslogoorange.png">
+	<h1>Log In</h1>
+	<form name="loginform" action="welcome.html" method="post" class="form" onSubmit="return(validate())">
+	<p>Username</p>
+		<input type="text" name="username" value="" placeholder="Enter username">
+		<p>Password</p>
+		<input type="password" name="password" value=""  placeholder="Enter password">
+		<input type="submit" value="Log In">
+		<a href="login.html">Forget your password ?</a><br>
+		<a href="login.html">Don't have an account ?</a>
+	</form>
+</div>
+</body>
+</html>
