@@ -19,7 +19,7 @@
   
     background-size: 100%;
     font-family: 'Bebas Neue', cursive;
-    height: 120vh;
+    height: 150vh;
     width:100vw;
     background-image: url('mainwall1.jpg');
   background-repeat: no-repeat;
@@ -55,6 +55,15 @@ nav img{
 	color: white;
 	border-radius: 20px;
 }
+.loginmessageus{
+    transition: all 0.5s;
+}
+
+  
+  .loginmessageus:hover {
+    padding-right: 25px;
+  }
+  
 .loginmessageus:hover{
     cursor: pointer;
 	background: white;
@@ -72,12 +81,15 @@ nav img{
     padding: 1rem;
 	background: #F1992A;
 	color: white;
-	border-radius: 20px;
+    border-radius: 20px;
+    transition: all 0.5s;
 }
 .loginabout:hover{
     cursor: pointer;
 	background: white;
-	color: black;
+    color: black;
+    padding-right: 25px;
+    padding-right: 25px;
 }
 nav ul{
     width: 50%;
