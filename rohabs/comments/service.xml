@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="service.xsl"?>
+<service xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="service.xsd"> 
+	
+	<booking>
+		<id>1001</id>
+		<name>Lynfo Michael</name>
+		<comment>I am a Freelance Photographer. Rohabs has taken my carrer to the next level
+		</comment>
+
+
+	</booking>
+<booking>
+		<id>1002</id>
+		<name>Karan Dsouza</name>
+		<comment>I am a freelance artist and I was searching a platform to showcase my work and get freelance works. Rohabs is the best.</comment>
+
+	</booking><booking>
+		<id>1003</id>
+		<name>Eddie Diyan</name>
+	<comment>The website ever for talented freelancers.</comment>
+	
+
+	</booking><booking>
+		<id>1004</id>
+		<name>Roh M</name>
+		<comment>The money paid for Rohabs never goes waste. We could utilise it to the fullest</comment>
+	</booking>
+	
+</service>
