@@ -3,12 +3,20 @@
   <html lang="en">
    <head>
 	<style>
-    		div
+    		*
             {
                 text-align:center;
                 width:100%;
                 border:2px solid black;
             }
+			th
+			{
+			background-color:yellow;
+			}
+			td
+			{
+			background-color:powderblue;
+			}
             td,th
             {
                 font-size:larger;
