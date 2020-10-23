@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="company.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="company.xsd"> 
+	
+	<Employee EMPID="id1">
+		<id>id1</id>
+		<name>Grigary Cherian Mathew</name>
+		<age>51</age>
+		<salary>175000</salary>
+		<email>grigarymathew@gmail.com</email>
+		<phone>9496377724</phone>
+		<designation>Team Leader</designation>
+
+	</Employee>
+<Employee EMPID="id2">
+		<id>id2</id>
+		<name>Sruthy Satyanath</name>
+		<age>45</age>
+		<salary>100000</salary>
+		<email>sruthysatyanath@gmail.com</email>
+		<phone>9495524760</phone>
+		<designation>Developer</designation>
+
+
+	</Employee>
+<Employee EMPID="id3">
+		<id>id3</id>
+		<name>Alwin Joseph</name>
+		<age>20</age>
+		<salary>60000</salary>
+		<email>alwinjoseph@gmail.com</email>
+		<phone>9447022520</phone>
+		<designation>Assosiate</designation>
+
+	</Employee>
+<Employee EMPID="id4">
+		<id>id4</id>
+		<name>George Rohan Mathew</name>
+		<age>21</age>
+		<salary>75000</salary>
+		<email>grms@gmail.com</email>
+		<phone>9446572499</phone>
+		<designation>Assosiate</designation>
+
+	</Employee>
+</Company>
