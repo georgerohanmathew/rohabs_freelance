@@ -47,7 +47,7 @@
       			</tr>
       			<xsl:for-each select="Company/Employee">
 	        		<tr>
-						<td><xsl:value-of select="id"/></td>
+						<td><xsl:value-of select="@EMPID"/></td>
 	          			<td><xsl:value-of select="name"/></td>
 	          			<td><xsl:value-of select="age"/></td>
 	          			<td><xsl:value-of select="salary"/></td>
